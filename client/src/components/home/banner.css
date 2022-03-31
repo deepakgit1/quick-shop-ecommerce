@@ -1,0 +1,21 @@
+.banner_img{
+    width: 100vw;
+    height: 280px;
+}
+
+@media (max-width:450px){
+    .banner_img{
+        object-fit: cover;
+        margin-bottom: -0.5vh;
+        height: 150px;
+        width: 100%;
+        display: flex;  
+    }
+    .carousel{
+        object-fit: cover;
+        margin-bottom: -0.5vh;
+        height: 150px;
+        display: flex; 
+        
+    }
+}

@@ -1,0 +1,76 @@
+.item_container{
+    text-align: start;
+}
+.heading{
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
+.heading2{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    text-align: unset;
+    color: rgb(0, 175, 0);
+}
+
+.add_remove_item{
+    display: flex;
+    align-items: center;
+}
+.sub_item1{
+text-align: center;
+color: rgb(128, 128, 128);
+}
+
+.topimg{
+    display: flex;
+    width: 150px;
+    margin: auto;
+    margin-bottom: -50px;
+}
+.delete1{
+    color: crimson;
+}
+
+.rightbuy_btn1{
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color:#00d660;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -5px rgba(0,0,0,.5);
+}
+.rightbuy_btn1:hover{
+    background: linear-gradient(to bottom,#5faa77,#00d660); 
+    color: #fff;
+}
+.add_remove_select p{
+    color: red;
+}
+
+.user_details{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.delete_btn{
+    align-items: center;
+    font-size: 13px;
+    padding: 5px;
+    width: 50px;
+    border-radius: 6px;
+    background-color: rgb(255, 83, 83);
+    letter-spacing: .2px;
+    margin-top: 4px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 0 15px -7px rgba(0,0,0,1);
+    font-size: 12px;
+    margin-left: 20px;
+    color: #fff;
+}
